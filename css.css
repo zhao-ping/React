@@ -1,0 +1,33 @@
+*{  padding:0px;margin: 0px;}
+html,body{min-height: 100%;}
+li{list-style: none;}
+.containner{width: 60%; margin: 0px auto; height:100%;padding: 20px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;}
+.containner .mian{  height:100%; width: 100%; background: #f5f5f5;border: 1px solid #ddd;}
+.containner .mian .form{width: 60%;margin:30px auto 0 auto;}
+.containner .mian .form .change{cursor: pointer; padding:10px; background: #330033;color: #fff;text-align: center;  font-size:16px;}
+.containner .mian .form .jsonbox{
+  padding:30px 0px;}
+.containner .mian .form .jsonbox ul li{
+  padding:10px 0px;}
+.containner .mian .form .jsonbox ul li span{
+  display: inline-block; padding-right: 10px;width: 20%;box-sizing: border-box;
+  line-height:30px;}
+.containner .mian .form .jsonbox ul li input{width: 70%;  height:30px;  padding:0px 10px;line-height: 30px;box-sizing: border-box}
+.containner .mian .form .jsonbox ul li em{font-size: 16px; margin: 7px;width: 16px;background: #330033;color: #fff;line-height: 16px;height: 16px;text-align: center;display: inline-block;border-radius: 50%;cursor: pointer;}
+.containner .mian .form .jsonbox .add{text-align: center;  padding:10px;}
+.containner .mian .form .jsonbox .add .showalertbox{width: 30px;height: 30px;  display: inline-block;font-size: 30px; background: #330033;color: #fff;line-height: 30px;text-align: center;border: 0px;border-radius: 50%;}
+#editForm{display: block;}
+.alertContainner{width: 100%;position: absolute;top: 150px;}
+#alertbox{width: 400px;margin: 0 auto; padding: 20px; background: #f1f1f1;box-shadow: 0px 0px 12px #ccc;border-radius: 15px;position: relative;}
+#alertbox .exit{position: absolute; top: 15px;right: 15px;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);width: 15px;height: 15px;background: #330033;color: #fff;text-align: center;line-height: 15px;font-size: 14px;border-radius: 50%;cursor: pointer;}
+#alertbox ul li{padding: 10px;}
+#alertbox ul li span{  display: inline-block; padding-right: 10px;width: 20%;box-sizing: border-box;  line-height:30px;}
+#alertbox ul li input[type=text]{width: 70%;  height:30px;  padding:0px 10px;line-height: 30px;box-sizing: border-box}
+#alertbox ul li input[type=radio]{margin-left: 20px;}
+#alertbox .addbox{text-align: center;padding: 10px;}
+#alertbox .addbox .addbutton{padding: 10px;background: #330033;color: #fff;border-radius: 10px;cursor: pointer;}
+.containner .mian #previewForm .jsonbox ul li em{display: none;}
+.containner .mian #previewForm .jsonbox .add .showalertbox{display: none}
