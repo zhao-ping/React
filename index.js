@@ -34,6 +34,8 @@ var AlertBox=React.createClass({
 
     )
   },
+  
+  
   render:function () {
     return <div id="alertbox">
       <div className="exit" onClick={this.exit}>+</div>
